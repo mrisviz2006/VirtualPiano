@@ -1,0 +1,92 @@
+body {
+    background-color: green;
+    margin: 20%;
+}
+
+.white-keys kbd{
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.black-keys kbd{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 25px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+div {
+    width: max-content;
+    margin: auto;
+}
+
+/*.container{*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 350px;*/
+/*    max-width: 880px;*/
+/*    position: relative;*/
+/*    margin: 40px auto 0;*/
+/*    cursor: none;*/
+/*}*/
+
+/*.key {*/
+/*    position: relative;*/
+/*    border: 4px solid black;*/
+/*    border-radius: .5rem;*/
+/*    transition: all .07s ease;*/
+/*    display: block;*/
+/*    box-sizing: border-box;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*!* внешний вид белых клавиш *!*/
+/*.key:not(.sharp) {*/
+/*    float: left;*/
+/*    width: 10%;*/
+/*    height: 100%;*/
+/*    background: rgba(255, 255, 255, .8);*/
+/*}*/
+
+/*!* внешний вид и положение чёрных клавиш *!*/
+/*.key.sharp {*/
+/*    position: absolute;*/
+/*    width: 6%;*/
+/*    height: 60%;*/
+/*    background: #000;*/
+/*    color: #eee;*/
+/*    top: 0;*/
+/*    z-index: 3;*/
+/*}*/
+
+/*.key[data-key="87"] {*/
+/*    left: 7%;*/
+/*}*/
+
+/*.key[data-key="69"] {*/
+/*    left: 17%;*/
+/*}*/
+
+/*.key[data-key="84"]  {*/
+/*    left: 37%;*/
+/*}*/
+
+/*.key[data-key="89"] {*/
+/*    left: 47%;*/
+/*}*/
+
+/*.key[data-key="85"] {*/
+/*    left: 57%;*/
+/*}
